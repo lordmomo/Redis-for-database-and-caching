@@ -1,0 +1,265 @@
+2024-02-15T15:00:06.710+05:45  INFO 5248 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 5248 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:00:06.726+05:45  INFO 5248 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:00:07.811+05:45  INFO 5248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:00:07.813+05:45  INFO 5248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:00:07.859+05:45  INFO 5248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:00:08.410+05:45  INFO 5248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:00:08.411+05:45  INFO 5248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:00:08.432+05:45  INFO 5248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:00:10.215+05:45  INFO 5248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:00:10.253+05:45  INFO 5248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:00:10.254+05:45  INFO 5248 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:00:10.460+05:45  INFO 5248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:00:10.461+05:45  INFO 5248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3621 ms
+2024-02-15T15:00:12.413+05:45  WARN 5248 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-02-15T15:00:12.453+05:45  INFO 5248 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-15T15:00:12.494+05:45 ERROR 5248 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-02-15T15:00:28.639+05:45  INFO 13876 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 13876 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:00:28.646+05:45  INFO 13876 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:00:30.230+05:45  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:00:30.233+05:45  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:00:30.278+05:45  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:00:30.791+05:45  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:00:30.792+05:45  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:00:30.836+05:45  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:00:32.315+05:45  INFO 13876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:00:32.342+05:45  INFO 13876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:00:32.343+05:45  INFO 13876 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:00:32.468+05:45  INFO 13876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:00:32.469+05:45  INFO 13876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3652 ms
+2024-02-15T15:00:34.452+05:45  INFO 13876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T15:00:34.466+05:45  INFO 13876 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 6.809 seconds (process running for 7.598)
+2024-02-15T15:01:01.563+05:45  INFO 13876 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-15T15:01:01.568+05:45  INFO 13876 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-15T15:01:01.572+05:45  INFO 13876 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-02-15T15:01:01.860+05:45  INFO 13876 --- [http-nio-8080-exec-2] c.m.redisdemo.controller.MenuController  : Menu Saved
+2024-02-15T15:03:18.704+05:45  INFO 8544 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 8544 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:03:18.709+05:45  INFO 8544 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:03:19.832+05:45  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:03:19.833+05:45  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:03:19.874+05:45  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:03:20.323+05:45  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:03:20.324+05:45  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:03:20.359+05:45  INFO 8544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:03:21.860+05:45  INFO 8544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:03:21.882+05:45  INFO 8544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:03:21.883+05:45  INFO 8544 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:03:22.045+05:45  INFO 8544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:03:22.046+05:45  INFO 8544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3221 ms
+2024-02-15T15:03:23.807+05:45  WARN 8544 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-02-15T15:03:23.848+05:45  INFO 8544 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-15T15:03:23.897+05:45 ERROR 8544 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-02-15T15:03:46.413+05:45  INFO 14208 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 14208 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:03:46.421+05:45  INFO 14208 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:03:47.958+05:45  INFO 14208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:03:47.959+05:45  INFO 14208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:03:48.018+05:45  INFO 14208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:03:48.445+05:45  INFO 14208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:03:48.446+05:45  INFO 14208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:03:48.479+05:45  INFO 14208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:03:49.973+05:45  INFO 14208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:03:49.992+05:45  INFO 14208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:03:49.992+05:45  INFO 14208 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:03:50.152+05:45  INFO 14208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:03:50.153+05:45  INFO 14208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3580 ms
+2024-02-15T15:03:51.853+05:45  WARN 14208 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-02-15T15:03:51.904+05:45  INFO 14208 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-15T15:03:51.938+05:45 ERROR 14208 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-02-15T15:04:11.525+05:45  INFO 4652 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 4652 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:04:11.534+05:45  INFO 4652 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:04:13.037+05:45  INFO 4652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:04:13.039+05:45  INFO 4652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:04:13.099+05:45  INFO 4652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:04:13.758+05:45  INFO 4652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:04:13.759+05:45  INFO 4652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:04:13.807+05:45  INFO 4652 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:04:15.229+05:45  INFO 4652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:04:15.248+05:45  INFO 4652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:04:15.248+05:45  INFO 4652 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:04:15.386+05:45  INFO 4652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:04:15.387+05:45  INFO 4652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3698 ms
+2024-02-15T15:04:17.077+05:45  INFO 4652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T15:04:17.093+05:45  INFO 4652 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 6.576 seconds (process running for 7.346)
+2024-02-15T15:10:03.694+05:45  INFO 4652 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-15T15:10:03.694+05:45  INFO 4652 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-15T15:10:03.696+05:45  INFO 4652 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-15T15:10:04.155+05:45  INFO 4652 --- [http-nio-8080-exec-2] c.m.redisdemo.controller.MenuController  : Menu Saved
+2024-02-15T15:10:28.904+05:45  INFO 12412 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 12412 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:10:28.910+05:45  INFO 12412 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:10:30.042+05:45  INFO 12412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:10:30.044+05:45  INFO 12412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:10:30.089+05:45  INFO 12412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:10:30.514+05:45  INFO 12412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:10:30.514+05:45  INFO 12412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:10:30.559+05:45  INFO 12412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:10:32.086+05:45  INFO 12412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:10:32.110+05:45  INFO 12412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:10:32.110+05:45  INFO 12412 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:10:32.287+05:45  INFO 12412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:10:32.288+05:45  INFO 12412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3259 ms
+2024-02-15T15:10:33.991+05:45  INFO 12412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T15:10:34.009+05:45  INFO 12412 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 5.996 seconds (process running for 6.839)
+2024-02-15T15:10:38.888+05:45  INFO 12412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-15T15:10:38.889+05:45  INFO 12412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-15T15:10:38.894+05:45  INFO 12412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-02-15T15:10:39.276+05:45  INFO 12412 --- [http-nio-8080-exec-1] c.m.redisdemo.controller.MenuController  : Menu Saved
+2024-02-15T15:11:00.417+05:45  INFO 12412 --- [http-nio-8080-exec-4] c.m.redisdemo.controller.MenuController  : Menu list shown
+2024-02-15T15:11:11.342+05:45  INFO 12412 --- [http-nio-8080-exec-3] c.m.redisdemo.controller.MenuController  : Menu id shown
+2024-02-15T15:11:18.042+05:45  INFO 12412 --- [http-nio-8080-exec-6] c.m.redisdemo.controller.MenuController  : Menu id shown
+2024-02-15T15:34:19.018+05:45  INFO 4024 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 4024 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:34:19.027+05:45  INFO 4024 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:34:20.366+05:45  INFO 4024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:34:20.368+05:45  INFO 4024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:34:20.415+05:45  INFO 4024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:34:20.909+05:45  INFO 4024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:34:20.910+05:45  INFO 4024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:34:20.975+05:45  INFO 4024 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:34:22.373+05:45  INFO 4024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:34:22.391+05:45  INFO 4024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:34:22.391+05:45  INFO 4024 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:34:22.565+05:45  INFO 4024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:34:22.566+05:45  INFO 4024 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3415 ms
+2024-02-15T15:34:24.359+05:45  INFO 4024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T15:34:24.376+05:45  INFO 4024 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 6.347 seconds (process running for 7.171)
+2024-02-15T15:34:34.456+05:45  INFO 4024 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-15T15:34:34.459+05:45  INFO 4024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-15T15:34:34.461+05:45  INFO 4024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-02-15T15:34:34.596+05:45  INFO 4024 --- [http-nio-8080-exec-1] c.m.redisdemo.controller.MenuController  : Menu id shown
+2024-02-15T15:35:30.582+05:45  INFO 4024 --- [http-nio-8080-exec-3] c.m.redisdemo.controller.MenuController  : Menu Saved
+2024-02-15T15:35:38.886+05:45  INFO 4024 --- [http-nio-8080-exec-4] c.m.redisdemo.controller.MenuController  : Menu id shown
+2024-02-15T15:44:20.488+05:45  INFO 16036 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 16036 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:44:20.495+05:45  INFO 16036 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:44:21.579+05:45  INFO 16036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:44:21.580+05:45  INFO 16036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:44:21.624+05:45  INFO 16036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:44:22.123+05:45  INFO 16036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:44:22.124+05:45  INFO 16036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:44:22.162+05:45  INFO 16036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:44:23.713+05:45  INFO 16036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:44:23.738+05:45  INFO 16036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:44:23.738+05:45  INFO 16036 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:44:23.900+05:45  INFO 16036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:44:23.902+05:45  INFO 16036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3289 ms
+2024-02-15T15:44:25.630+05:45  INFO 16036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T15:44:25.647+05:45  INFO 16036 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 6.045 seconds (process running for 6.806)
+2024-02-15T15:44:43.710+05:45  INFO 16036 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-15T15:44:43.711+05:45  INFO 16036 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-15T15:44:43.712+05:45  INFO 16036 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-15T15:44:43.847+05:45  INFO 16036 --- [http-nio-8080-exec-2] c.m.redisdemo.controller.MenuController  : Menu Saved
+2024-02-15T15:46:00.052+05:45  INFO 14064 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 14064 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:46:00.055+05:45  INFO 14064 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:46:00.631+05:45  INFO 14064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:46:00.632+05:45  INFO 14064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:46:00.657+05:45  INFO 14064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:46:00.881+05:45  INFO 14064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:46:00.881+05:45  INFO 14064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:46:00.903+05:45  INFO 14064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:46:01.603+05:45  INFO 14064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:46:01.615+05:45  INFO 14064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:46:01.615+05:45  INFO 14064 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:46:01.685+05:45  INFO 14064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:46:01.685+05:45  INFO 14064 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1564 ms
+2024-02-15T15:46:02.613+05:45  INFO 14064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T15:46:02.623+05:45  INFO 14064 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 3.06 seconds (process running for 3.448)
+2024-02-15T15:46:10.852+05:45  INFO 14064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-15T15:46:10.854+05:45  INFO 14064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-15T15:46:10.856+05:45  INFO 14064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-15T15:46:10.987+05:45  INFO 14064 --- [http-nio-8080-exec-1] c.m.redisdemo.controller.MenuController  : Menu Saved
+2024-02-15T15:46:50.265+05:45  INFO 2740 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 2740 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:46:50.269+05:45  INFO 2740 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:46:50.894+05:45  INFO 2740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:46:50.894+05:45  INFO 2740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:46:50.921+05:45  INFO 2740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:46:51.155+05:45  INFO 2740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:46:51.156+05:45  INFO 2740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:46:51.180+05:45  INFO 2740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:46:51.895+05:45  INFO 2740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:46:51.906+05:45  INFO 2740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:46:51.907+05:45  INFO 2740 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:46:51.980+05:45  INFO 2740 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:46:51.981+05:45  INFO 2740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1622 ms
+2024-02-15T15:46:52.938+05:45  INFO 2740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T15:46:52.947+05:45  INFO 2740 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 3.39 seconds (process running for 3.94)
+2024-02-15T15:47:02.787+05:45  INFO 2740 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-15T15:47:02.788+05:45  INFO 2740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-15T15:47:02.789+05:45  INFO 2740 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-15T15:47:02.916+05:45  INFO 2740 --- [http-nio-8080-exec-1] c.m.redisdemo.controller.MenuController  : Menu Saved
+2024-02-15T15:49:54.666+05:45  INFO 13248 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 13248 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T15:49:54.670+05:45  INFO 13248 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T15:49:55.360+05:45  INFO 13248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:49:55.361+05:45  INFO 13248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:49:55.390+05:45  INFO 13248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:49:55.637+05:45  INFO 13248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T15:49:55.638+05:45  INFO 13248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T15:49:55.666+05:45  INFO 13248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2024-02-15T15:49:56.538+05:45  INFO 13248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T15:49:56.553+05:45  INFO 13248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T15:49:56.553+05:45  INFO 13248 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T15:49:56.637+05:45  INFO 13248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T15:49:56.638+05:45  INFO 13248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1886 ms
+2024-02-15T15:49:57.808+05:45  INFO 13248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T15:49:57.821+05:45  INFO 13248 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 3.728 seconds (process running for 4.676)
+2024-02-15T16:02:26.635+05:45  INFO 14356 --- [main] c.momo.redisdemo.RedisdemoApplication    : Starting RedisdemoApplication using Java 17.0.9 with PID 14356 (C:\Users\Hp\IdeaProjects\redisdemo\redisdemo\target\classes started by Hp in C:\Users\Hp\IdeaProjects\redisdemo\redisdemo)
+2024-02-15T16:02:26.645+05:45  INFO 14356 --- [main] c.momo.redisdemo.RedisdemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-02-15T16:02:27.528+05:45  INFO 14356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T16:02:27.528+05:45  INFO 14356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T16:02:27.561+05:45  INFO 14356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-02-15T16:02:27.810+05:45  INFO 14356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-15T16:02:27.810+05:45  INFO 14356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-15T16:02:27.835+05:45  INFO 14356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2024-02-15T16:02:28.622+05:45  INFO 14356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-15T16:02:28.634+05:45  INFO 14356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-15T16:02:28.635+05:45  INFO 14356 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-15T16:02:28.718+05:45  INFO 14356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-15T16:02:28.718+05:45  INFO 14356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1923 ms
+2024-02-15T16:02:29.759+05:45  INFO 14356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-15T16:02:29.770+05:45  INFO 14356 --- [main] c.momo.redisdemo.RedisdemoApplication    : Started RedisdemoApplication in 3.759 seconds (process running for 4.195)
+2024-02-15T16:02:51.246+05:45  INFO 14356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-15T16:02:51.247+05:45  INFO 14356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-15T16:02:51.248+05:45  INFO 14356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-15T16:02:51.384+05:45  INFO 14356 --- [http-nio-8080-exec-1] c.m.redisdemo.controller.MenuController  : Menu Saved
